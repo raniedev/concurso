@@ -140,15 +140,99 @@ Quatro pessoas jurídicas que podem impetrar
 - Associações
 	Para impetrar precisam estar em funcionamento há pelo menos  1 ano
 
+#### Direitos Humanos ≠ Direitos Fundamentais
 
+Direitos Humanos
+- Invariáveis
+- Tratados/Convenções (ex.: A Convenção Americana sobre Direitos Humanos (CADH) Também conhecido como Pacto de São José da Costa Rica.
 
+Direitos Fundamentais
+- Variáveis
+- Podem ser **positivados** no ordenamento jurídico (Emenda Constitucional)
 
+Titularidade de direito fundamentais, 3 Pessoas:
+- Pessoa Humana
+- Pessoa Jurídica
+- Estado
+#### Teoria Geral dos Direitos Fundamentais
+Espécies: (Rol Exemplificativo, ou não exaustivo)
+- Direitos Individuais e Coletivos (Art. 5º)
+- Direitos Sociais (Art. 6º ao 11º)
+- Direito à Nacionalidade (Art. 12º) **Despenca em prova!!!**
+- Direitos Políticos (Art. 14º ao 16º)
+- Direito à Existência e Funcionamento dos Partidos Políticos (Art. 17º)
 
+#### Quanto à Evolução
+Gerações/Dimensões de Direito:
+- **Primeira:** 
+- **Segunda:**
+- **Terceira:**
 
+>Existem os direitos de Quarta, Quinta etc., mas geralmente as bancas cobram mais até a Terceira.
 
+#### 1ª Geração / Dimensão
+Características:
+- Direitos
+	- Civis
+	- Políticos
+- Valor da Liberdade
+- Estado Negativo
 
+#### 2ª Geração / Dimensão
+Características:
+- Direitos
+	- Sociais (Constituição do México de 1917 e Constituição de Weimar 1919)
+	- Econômicos
+	- Culturais
+- Valor
+	- Igualdade (Isonomia)
+- Estado Positivo
 
+#### 3ª Geração / Dimensão
+Características:
+- Direitos
+	- Difusos
+	- Coletivos
+- Valor
+	- Fraternidade
+- Meio Ambiente (Ideais Iluministas da Revolução Francesa de 1789)
+	- Liberdade 1ª Gen.
+	- Igualdade 2ª Gen.
+	- Fraternidade (Solidariedade) 3ª Gen.
 
+#### 4ª Geração / Dimensão
+Direitos:
+- Bioética
+- Patrimônio Genético
+- Globalização da Informação
+- Pluralismo Político
+#### 5ª Geração / Dimensão
+- Direito à paz
+- Internet, 
+
+### Direitos Individuais
+Art 5º CF/88, Titularidade
+- Brasileiros
+- Estrangeiros (Naturalizados)
+
+Apenas os estrangeiros que moram no Brasil tem direitos fundamentais? Errado, residir significa estar no Brasil ainda que transitoriamente. Art. 5 do Caput (Cabeça)
+
+Os estrangeiros tem todos os direitos do Brasil? Não, por exemplo, para ser Presidente/Vice-Presidente e outros cargos é necessário ser brasileiro nato.
+#### Cláusulas Pétreas
+- Separação dos Poderes
+- Forma Federativa de Estado
+- Voto Direito, Secreto, Periódico e Universal
+- Direitos e Garantias Individuais
+
+É possível modificar uma cláusula pétrea? Sim, mas apenas para ampliação de direitos e nunca para revogar algo já garantido.
+
+#### Características Fundamentais
+Características mais recorrentes em provas:
+- Universalidade (Pertencem à todos, mas não a todos de maneira irrestrita)
+- Historicidade quanto à evolução
+- Limitabilidade, relativização (não há direito absoluto)
+- Irrenunciabilidade
+- Inalienabilidade, direitos não podem ser comercializados
 
 
 
