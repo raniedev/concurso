@@ -64,12 +64,48 @@
 - **Responsabilização e prestação de contas:** demonstração, <u>pelo agente</u>, das medidas para proteger os dados e a eficácia dessas medidas
 
 ### Capítulo 2 - Tratamento de Dados Pessoais
+#### Seção I - Requisitos para Tratamento de Dados Pessoais
+
+**Art. 7:** Autorizações para o tratamento de dados
+- mediante o fornecimento de consentimento do titular
+- obrigação legal ou regulatória pela controlador
+- pela administração pública, para o tratamento e uso compartilhado de dados necessários à execução de de políticas públicas
+- realizar estudos por órgãos de pesquisa, garantida, sempre que possível, a anonimização dos dados pessoais
+- execução de contrato
+- processo judicial, administrativo ou arbitral
+- proteção da vida ou incolumidade física
+> Incolumidade física é a preservação da integridade do corpo e da saúde de uma pessoa contra danos, lesões ou agressões.
+- tutela da saúde, por profissionais de saúde
+- interesses legítimos do controlado ou de terceiro, exceto em caso de prevalecerem direitos e liberdades fundamentais do titular
+- proteção do crédito, não podendo repassar essas informações para outro controlador sem prévia autorização do titular
+> Proteção do crédito” quer dizer **analisar, avaliar ou garantir a capacidade de pagamento de uma pessoa**, com o intuito de **evitar inadimplência** (calotes)
 
 
+**Art;. 8:** Formas do consentimento
+- por escrito ou por outro meio que demonstre a manifestação do titular
+>Ex.: O titular confirmando através de prompts, formulários online, clicando em checkboxes, botões de "aceito os termos" / "estou ciente" etc. também são formas válidas para demonstrar a autorização do titular.
+- Se for cláusula por escrito, deverá constar de cláusula separada das demais
+- Cabe ao <u>controlador</u> o ônus da prova de que o consentimento foi fornecido, deve ter isso registrado de alguma forma
+- Não pode induzir o titular a consentir
+- As finalidades devem ser objetivas, se forem genéricas deverão ser desconsideradas
+- O titular deve poder revogar consentimento a hora que ele quiser
+- Caso haja alterações posteriores o titular precisa ser informado, podendo o titular, nos casos em que o consentimento é exigido, revogá-lo caso discorde da alteração.
 
+**Art. 9:** O titular tem direito direito ao acesso facilitado às informações sobre o tratamento de seus dados, que deverão ser disponibilizadas de forma clara...
+- finalidade específica do tratamento
+- forma e duração do tratamento, observados os segredos comerciais e industriais
+- identificação do controlador
+- informações de contato do controlador
+- informações acerca de uso compartilhado de dados pelo controlador e a finalidade
+- responsabilidades dos agentes que realizarão tratamento
+- direitos do titular
+	- § 1ª sem consentimento enganoso
+	- § 2ª avisar o titular em caso de mudanças e revogação de consentimento,
+	- § 3ª avisar o titular que ao adquirir um produto ou serviço deverá fornecer determinados dados
 
-
-
+**Art. 10:** o legítimo interesse do controlador somente poderá fundamentar tratamento de dados pessoais para finalidades legítimas.
+- A empresa pode usar os dados para melhorar, divulgar ou organizar suas próprias atividades.
+- A empresa pode tratar seus dados para garantir seus próprios direitos e também os direitos do titular.
 
 
 
