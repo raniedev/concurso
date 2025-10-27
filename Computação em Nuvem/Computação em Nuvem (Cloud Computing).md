@@ -31,7 +31,7 @@ São 5 as principais características do serviços de Cloud Computing:
 - **PaaS:** Plataform as a Service, fornecida toda a plataforma e ambiente de desenvolvimento para o cliente. exs.: streaming, desenvolvimento de aplicação
 - **IaaS:** Infrastructure as as Service, disponibilização de máquinas virtuais para o cliente. exs.: sistema legado, servidor de arquivos.
 
-<img src="imgs/iaas-paas-saas.png">
+<img src="./imgs/iaas-paas-saas.png">
 #### SaaS - Software as a Service
 Diferentemente da forma tradicional de venda de licenças e cópias dos softwares para instalação local, o software passa a ser entregue como serviço. Surge um cenário onde as empresas buscam cada vez mais diminuir os custos desnecessários. A responsabilidade de suporte, manutenção e atualização do produto ficam sob responsabilidade do provedor do serviço.
 
@@ -160,4 +160,4 @@ Os sistemas instalados nestas máquinas virtuais têm a percepção de que estã
 - Este funciona de forma muito parecida ao VMM do tipo I, sendo que sua principal diferença é a existência de um sistema hospedeiro abaixo dele
 - Neste modelo, o VMM simula todas as operações que o sistema hospedeiro controlaria.
 - Exemplo: Estando no Ubuntu Linux, instalar o Virtualbox e dentro desta virtualização instalar o Kali Linux.
-<img src="imgs/vmm.webp">
+<img src="./imgs/vmm.webp">
