@@ -1,6 +1,6 @@
-A infraestrutura oferece a plataforma para suporte de todos os sistemas de informação na empresa.
+# Componentes da Infraestrutura
 
-A infraestrutura da TI de uma empresa compõe-se de Hardware, Software, Tecnologia de Gestão, Tecnologia de Rede e Serviços de Tecnologia.
+A infraestrutura oferece a plataforma para suporte de todos os sistemas de informação na empresa. A infraestrutura da TI de uma empresa compõe-se de Hardware, Software, Tecnologia de Gestão, Tecnologia de Rede e Serviços de Tecnologia.
 ## Hardware
 
 - **Tipos de Computadores:** Computador Desktop, Smartphones, Notebooks, Netbooks, Smartwatches, Leitores de E-book, Tablet etc.
@@ -14,6 +14,6 @@ A infraestrutura da TI de uma empresa compõe-se de Hardware, Software, Tecnolog
 ### Client Server Model
 Existem dois tipos de computação cliente/servidor: o de duas camadas e de multicamadas.
 #### Cliente Servidor de 2 Camadas
-Nesta computação, o processamento computacional é dividido entre máquinas clientes e máquinas servidoras conectadas por uma rede através do [protocolo TCP/IP](Protocolo TCP IP.md). O usuário interage com a interface das máquinas clientes e estas se comunicam com as máquinas servidoras conectadas por uma rede.
+Nesta computação, o processamento computacional é dividido entre máquinas clientes e máquinas servidoras conectadas por uma rede através do [protocolo TCP/IP](Protocolo%20TCP%20IP.md). O usuário interage com a interface das máquinas clientes e estas se comunicam com as máquinas servidoras conectadas por uma rede.
 
 

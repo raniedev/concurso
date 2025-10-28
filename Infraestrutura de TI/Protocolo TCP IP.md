@@ -1,4 +1,6 @@
-O Protocolo TCP (*Transmission Control Protocol*) é o processo conhecido como *Three Way Handshake*, que seria como um aperto de mão de três etapas. Para a web, a comunicação ocorre através do protocolo HTTP usando a porta 80 (inseguro) ou HTTPS 443 (segura).
+# Protocolo TCP IP
+
+O Protocolo TCP (*Transmission Control Protocol*) é o processo conhecido como *Three Way Handshake*, que seria como um aperto de mão de três etapas. Para a web, a comunicação ocorre através do protocolo HTTP usando a porta 80 (inseguro) / 8080 (porta alternativa) ou HTTPS 443 (segura).
 ### O que é o Three Way Handshake?
 É o processo que estabelece uma conexão confiável entre dois dispositivos através do protocolo TCP. Ele garante que cliente e servidor estejam prontos para trocar dados, minimizando erros de transmissão. Esse processo consiste de três etapas:
 1. **SYN (Synchronize):** O cliente envia um pedido para iniciar a conexão, que contém:
@@ -19,7 +21,7 @@ O Protocolo TCP (*Transmission Control Protocol*) é o processo conhecido como *
 	Confirma o número de sequência do servidor. (Ack = y + 1)
 	"Recebi seu número `y`, vamos trocar dados."
 
-![](syn-synack-ack.jpeg)
+![Syn Syn-Ack Ack](syn-synack-ack.jpeg)
 
 - **SPORT:** Source Port = Porta de Origem 
 	É uma porta qualquer entre **49152 e 65535** (faixa de portas efêmeras ou temporárias)
@@ -37,3 +39,6 @@ Esses campos fazem parte do **cabeçalho TCP ou UDP**, e **identificam quais apl
 | DNS (resolução de nomes)        |          53          |
 | SMTP (envio de e-mails)         |          25          |
 
+### Problemas de Cibersegurança
+
+😈 [Ataque DDoS](Ataque%20DDoS.md) de inundação SYN se aproveita de uma vulnerabilidade no handshake TCP/IP para sobrecarregar um servidor com conexões TCP.
