@@ -1,5 +1,4 @@
-# QUESTÕES FGV
-
+# Questões FGV
 ## 2025
 
 **(CNU/2025)** Ana está avaliando as opções para hospedagem dos serviços e sistemas de informação do seu órgão da Administração Pública federal que possuem dados com restrição de acesso e crescem sob demanda. Por isso, Ana precisa de um ambiente de serviços de computação em que os serviços sejam exclusivamente suportados e compartilhados por um grupo específico de órgãos e entidades que têm requisitos compartilhados e um relacionamento entre si. Diante dos requisitos analisados,  Ana deve contratar ou adquirir um(a):
@@ -92,6 +91,128 @@ Dado o contexto de operação nacional e os requisitos da empresa, a arquitetura
 - ✔ distribuir os recursos entre várias regiões dentro do país, com uma política de escalabilidade automática, para atender a demanda em diferentes estados.
 - escolher uma única zona de disponibilidade com alto desempenho, focando na redução de custos e aceitando possíveis riscos de indisponibilidade em caso de falha.
 
+**(TJ-RR/2024)** A computação em nuvem permite armazenamento, processamento e acesso flexível a dados e aplicações remotamente. Sobre os conceitos envolvidos na computação em nuvem, é correto afirmar que
+
+- em nuvens públicas, os recursos de computação são hospedados em provedores externos, enquanto em nuvens privadas estes recursos devem ser hospedados localmente.
+- modelos PaaS (Plataform as a Service) e IaaS (Infrastructure as a Service) só podem ser empregados em nuvens públicas.
+- nuvens públicas permitem maior personalização graças ao acesso compartilhado da plataforma, ao contrário de nuvens privadas.
+- modelos SaaS na nuvem privada são mais caros que na nuvem pública, porém modelos IaaS e PaaS apresentam custos semelhantes em ambos os tipos de nuvem.
+- ✔ nuvens privadas minimizam ou eliminam o multitenancy, enquanto nas nuvens públicas o multitenancy é um conceito central.
+
+~~~
+Multitenacy = Multilocação que é quando vários clientes diferentes da nuvem acessam os mesmos recursos computacionais.
+~~~
+**(STN - Auditor Federal/2024)** A estratégia de gestão de infraestrutura em tecnologia da informação que busca a flexibilidade operacional por meio do uso combinado de diferentes serviços de nuvem pública, como _Amazon Web Services_ (AWS), Microsoft Azure e Google Cloud Platform, permitindo que uma organização se beneficie das características únicas de cada serviço, conforme suas necessidades específicas, é conhecida como
+
+- Infraestrutura Hiperconvergente (HCI).
+- ✔ Multi Cloud.
+- Híbrida.
+- Edge.
+- Privada.
+
+**(Dataprev/2024)** Uma empresa de médio porte está planejando migrar suas operações para a computação em nuvem. A empresa precisa manter controle total de seus dados sensíveis, como informações financeiras e dados de clientes, mas também quer aproveitar a flexibilidade e escalabilidade oferecida por provedores externos para outras funções menos críticas, como desenvolvimento de software.
+
+O modelo de implantação correto para atender a essas necessidades de segurança e flexibilidade é
+
+- Nuvem Pública - Recursos de baixo custo e alta escalabilidade, com total controle sobre os dados.
+- Nuvem Privada - Exclusividade de recursos, controle completo sobre dados, com escalabilidade limitada e custos mais altos.
+- ✔ Nuvem Híbrida - Combina nuvem privada para dados sensíveis e nuvem pública para maior escalabilidade, oferecendo o melhor dos dois mundos.
+- Nuvem Comunitária - Compartilhamento de infraestrutura entre várias organizações com flexibilidade limitada e baixo controle.
+- SaaS - Modelo que permite o acesso a software de terceiros, com foco na segurança e controle sobre dados confidenciais.
+
+**(ALE-TO/2024)** Em relação aos sistemas e serviços de armazenamento de dados na nuvem, analise as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa.
+- ( ) O serviço de armazenamento de dados não estruturados para empresas na nuvem do Google é o Drive.
+- ( ) O Dropbox é um aplicativo de armazenamento na nuvem.
+- ( ) No OneDrive é possível ativar arquivos sob demanda para manter arquivos em seu disco rígido e usar _offline_.
+- ( ) Os serviços de armazenamento de dados na nuvem são sempre gratuitos.
+
+As afirmativas são, respectivamente,
+- ✔ V – V – V – F.
+- V – V – F – F.
+- F – V – V – F.
+- F – V – F – F.
+- V – V – F – V.
+
+**(Dataprev/2024)** Uma empresa de sistemas de informação deseja montar uma estrutura de nuvem privada no local. Nesse caso, significa que
+
+- ✔ a infraestrutura da nuvem será hospedada internamente no data center da empresa e gerenciada por sua equipe de TI.
+- os recursos de nuvem pública serão de terceiros, inclusive com mando externo na operação de provedor de nuvem.
+- os serviços de nuvem serão executados fora da empresa, em servidores de nuvem de um fornecedor terceirizado.
+- todos os recursos e serviços da nuvem serão compartilhados entre vários clientes, de forma multilocatária.
+- vai-se oferecer computadores da empresa, em um ambiente isolado, mas serão usados recursos compartilhados de infraestrutura de nuvem pública.
+
+**(TRF/2024)** Roberto foi contratado para gerenciar a implantação de um novo data center, que servirá para hospedar o ambiente de nuvem de um conjunto de organizações. Nesse ambiente, cada organização participante poderá criar seus serviços, com base nas ferramentas disponibilizadas no ambiente de nuvem, mas sem poder utilizar tecnologias arbitrárias.
+
+Segundo as definições da recomendação NIST SP 800-145, o ambiente configurado por Roberto é classificado como:
+
+- nuvem pública com modelo de serviço SaaS;
+- nuvem comunitária com modelo de serviço IaaS;
+- nuvem pública com modelo de serviço IaaS;
+- nuvem privada com modelo de serviço PaaS;
+- ✔ nuvem comunitária com modelo de serviço PaaS.
+
+**(CVM/2024)** Um órgão público contratou serviço de um provedor de computação em nuvem pública no modelo SaaS (_Software as a Service_), mas, por ter dados sigilosos, contratou também uma solução de nuvem privada para manipulá-los, em consonância com a LGPD (Lei Geral de Proteção de Dados). Os requisitos tecnológicos para ambas as soluções são iguais, porém o órgão possui apenas uma conexão com a internet para intercambiar informações entre as soluções contratadas.
+Uma vantagem da nuvem privada em relação à nuvem pública contratada é o(a):
+
+- menor demanda de profissionais do órgão para administrar a solução;
+- ✔ maior controle na administração e configuração da infraestrutura;
+- maior confiabilidade devido ao maior número de provedores de infraestrutura de comunicação;
+- maior desempenho devido às configurações dos equipamentos tecnológicos;
+- maior elasticidade por causa da maior quantidade de equipamentos envolvidos na solução.
+
+**(Prefeitura de São José dos Campos/2024)** Assinale a opção que melhor descreve o conceito de cloud storage.
+
+- Armazenamento físico de dados em discos rígidos locais.
+- ✔ Armazenamento de dados em servidores remotos acessíveis pela internet.
+- Armazenamento de dados exclusivamente em dispositivos móveis.
+- Armazenamento de dados em CDs e DVDs.
+- Armazenamento de dados em pen drives.
+
+**(CVM/2024)** O analista Ricardo adquiriu de um provedor as soluções de nuvem A, B e C, para a CVM. Os serviços da solução A replicam dados diretamente na solução B. A solução C não possui conectividade com as demais soluções. Todas as soluções atendem exclusivamente à CVM, porém as soluções A e C operam na Internet, enquanto a solução B opera na Intranet.
+Em relação ao modelo de implantação da arquitetura de nuvem, as soluções:
+
+- ✔ A, B e C são nuvens privadas;
+- A, B e C formam uma multicloud;
+- A, B e C formam uma nuvem híbrida;
+- A e C são nuvens públicas, enquanto B é nuvem privada;
+- A e B formam uma nuvem híbrida, enquanto C é nuvem privada.
+
+~~~
+"Todas as soluções atendem EXCLUSIVAMENTE à CVM", por ser exclusivo todas elas são nuvens privadas.
+~~~
+
+**(Prefeitura de São José dos Campos/2024)** Com relação ao Google Drive, analise as afirmativas a seguir.
+
+I. Oferece acesso criptografado e seguro aos seus arquivos.
+II. É nativo da nuvem, o que diminui muito a necessidade de arquivos locais, bem como o risco para seus dispositivos.
+III. Os arquivos compartilhados podem ser verificados e removidos proativamente se forem _malware_, _spam_, _ransomware_ ou _phishing_.
+
+Está correto o que se afirma em
+- I, apenas.
+- I e II, apenas.
+- I e III, apenas.
+- II e III, apenas.
+- ✔ I, II e III.
+
+**(TRF 2024)** A equipe de TI de um órgão público contratou uma nuvem específica para prover os serviços financeiros para um grupo de órgãos diretamente subordinados. Apenas as equipes das áreas de orçamento e finanças terão acesso aos serviços ofertados nessa nuvem.
+
+De acordo com o NIST SP 800-145, o modelo de implementação adotado pelo órgão foi:
+
+- private cloud;
+- ✔ community cloud;
+- public cloud;
+- hibrid cloud;
+- software cloud.
+
+**(TRF 2024)** A plataforma digital do Poder Judiciário brasileiro (PDPJ-Br) foi criada com o objetivo integrar e consolidar todos os sistemas eletrônicos do Judiciário brasileiro em um único ambiente unificado.
+Para tanto, a PDPJ-BR adota soluções que abrangem o conceito de computação em nuvem.
+A PDPJ-Br poderá ser provida por um serviço de computação em nuvem fornecido por uma empresa privada, desde que:
+
+- o armazenamento dos dados ocorra em datacenter abrigado na sede da empresa contratada;
+- ✔ atenda aos requisitos de disponibilidade, de escalabilidade, de redundância e de criptografia;
+- permita o compartilhamento não oneroso do código-fonte dos artefatos que venham a ser hospedados na nuvem;
+- permita a mensuração de uso dos recursos da nuvem conforme critérios pactuados pela empresa contratada;
+- possibilite a conformidade com as normas técnicas e outras estabelecidas em ato próprio do coordenador do comitê gestor de segurança da informação do Poder Judiciário.
 ## 2023
 
 **(BBTS/2023)** Atualmente, há diferentes opções tecnológicas para armazenamento de dados em nuvem.
@@ -108,6 +229,76 @@ Note que HDD = Hard Disk Drive
 SSD é memória flash
 ~~~
 
+## 2022
+
+**(TJDFT/2022)** O Poder Judiciário criou a Plataforma Digital do Poder Judiciário Brasileiro (PDPJ-Br) para disponibilizar soluções para uso por todos os sistemas de processo judicial eletrônico do Poder Judiciário nacional. A PDPJ-Br é disponibilizada na forma de um _marketplace_ que pode ser hospedada em nuvem.
+
+O requisito a ser observado para permitir a hospedagem da PDPJ-Br em um provedor de serviços de nuvem é que a nuvem:
+
+- seja híbrida e exclusiva para o Poder Judiciário;
+- seja híbrida, podendo ser compartilhada somente outro órgão público;
+- ✔ armazene os dados em um _datacenter_ em território nacional;
+- transmita os dados por equipamentos em território nacional;
+- realize o _backup_ dos dados em equipamentos do Poder Judiciário.
+
+**(SF - Analista de Informática Legislativa/2022)** Os executivos responsáveis por uma empresa decidiram, recentemente, migrar toda sua força de trabalho para o modelo de _home-office_. Para facilitar essa migração, os serviços de diretório de identidades e armazenamento de arquivos foram migrados para provedores de serviços externos (nuvem pública), onde os usuários têm acesso diretamente aos serviços sem necessidade de estar na rede da empresa.
+
+Nesse sentido, assinale a opção que indica a ação efetiva para:
+- Prover visibilidade sobre o uso dos serviços externos.
+- Controle sobre os cumprimentos das políticas de segurança da informação.
+- Proteção contra vazamento de identidades.
+
+Marque a opção corrreta:
+- Implementar uma ferramenta de DLP no _firewall_ da empresa e uma ferramenta de controle de contas com acesso privilegiado.
+- ✔ Implementar uma ferramenta de CASB, uma ferramenta de controle de contas com acesso privilegiado e uma ferramenta de _login_ centralizado (SSO) com uso de um segundo fator de autenticação.
+- Implementar uma ferramenta de controle de configurações, implementar monitoramento na VPN corporativa.
+- Implementar política solicitando que os usuários criptografem os dados antes de utilizarem os serviços externos.
+- Implementar uma ferramenta de antivírus com _sandboxing_ em todas as estações da rede da empresa.
+
+~~~
+CASB é a sigla para Cloud Access Security Broker (Corretor de Segurança de Acesso à Nuvem), uma ferramenta de segurança que atua entre usuários e serviços em nuvem para aplicar políticas de segurança, garantir a conformidade e proteger dados. Ele fornece visibilidade sobre o uso da nuvem, proteção contra ameaças, prevenção de perda de dados (DLP) e controle de acesso para garantir que os dados corporativos na nuvem sejam seguros.
+~~~
+
+**(MPE GO/2022)** Júlia e seus colegas de faculdade estão fazendo um trabalho em grupo e decidiram compartilhar seus arquivos de imagens e texto na nuvem de modo que cada integrante do grupo possa ver e acessar as atualizações dos outros pela Internet.
+Para compartilhar na nuvem os arquivos do trabalho com os colegas do grupo, Júlia deve usar o
+
+- ✔ Dropbox.
+- Pendrive.
+- Mozilla Thunderbird.
+- Windows Explorer.
+- Infraestrutura como Serviço (IaaS).
+
+**(TJDFT-2022)** O órgão XPTO do Poder Judiciário está implementando tecnologia em nuvem para prover serviços para outros órgãos. Os serviços ofertados consistirão em um ambiente no qual os clientes receberão máquinas virtuais, com suas áreas de armazenamento definidas (_storage_) e as interfaces de rede de acordo com os ambientes (produtivos ou não produtivos), nas quais poderão instalar os sistemas operacionais e suas aplicações para disponibilizarem serviços para seus clientes.
+De acordo com a NIST SP 800-145, o modelo de serviço de nuvem implementado pelo órgão XPTO é o:
+
+- ✔ _infrastructure as a service;_
+- _on-demand self-service;_
+- _software as a service;_
+- _platform as a service;_
+- _measured service._
+
+**(MPE-GO/2022)** A equipe de suporte de redes do MP-GO decidiu modernizar seu parque computacional para otimizar a alocação dos seus recursos implantando uma nuvem.
+Usando equipamentos próprios hospedados internamente, a nuvem que a equipe de suporte deve implantar é
+
+- distribuída.
+- múltipla.
+- híbrida.
+- comunitária.
+- ✔ privada.
+
+**(Analista de Informática Legislativa/2022)** Nos últimos anos, a adoção de ambientes em nuvem cresceu expressivamente. Modelos de serviços em nuvem facilitam a criação de soluções tecnológicas modernas de maneiras diferentes.
+A seguir, estão listadas algumas características de um desses modelos.
+
+- I. O provedor de nuvem fica responsável pelo gerenciamento da infraestrutura de servidores, sistemas operacionais, atualizações e outras tarefas administrativas.
+- II. Acessível pela internet por meio do navegador web.
+- III. Permite equipes de desenvolvimento colaborarem em todo o ciclo de vida de um aplicativo, incluindo codificação, integração, teste, entrega, implantação e feedback.
+
+As características descritas nos itens I, II e III referem-se a
+- IAC.
+- TaaS.
+- SaaS.
+- IaaS.
+- ✔ PaaS.
 ## 2018
 
 **(BANESTES/2018)** A modalidade de computação em nuvem que oferece os recursos necessários para o desenvolvimento e gerenciamento de aplicações em que o provedor da cloud é o responsável por cuidar de toda a configuração de infraestrutura necessária como instalação de servidores, firewalls, conectividade, é denominada:
@@ -168,4 +359,69 @@ Assinale a opção que mostra a relação correta, de cima para baixo:
 - ✔ se somente as afirmativas I e III estiverem corretas.
 -  se todas as afirmativas estiverem corretas.
 
-.
+## 2015
+
+**(DPE-MT/2015)** A respeito do armazenamento de dados na nuvem, analise as afirmativas a seguir.
+
+- I. A principal função da nuvem é o armazenamento de dados.
+- II. A robustez da conexão à Internet é essencial para o uso da nuvem.
+- III. Uma nuvem descartável é indicada para projetos que são realizados uma única vez.
+Assinale:
+-   se somente a afirmativa I estiver correta.
+- se somente a afirmativa II estiver correta.
+- se somente a afirmativa III estiver correta.
+- se somente as afirmativas I e II estiverem corretas.
+- ✔ se somente as afirmativas II e III estiverem corretas.
+
+**(DPE MT/2015)** Na figura a seguir é apresentado um esquema com os atores na computação em nuvem de acordo com os papéis desempenhados.
+
+![Atores da Computação em Nuvem](imgs/atores-cloud-computing.gif)
+Na figura acima, I, II e III correspondem, respectivamente, a
+- consumidor, provedor e desenvolvedor.
+- desenvolvedor, consumidor e provedor.
+- desenvolvedor, provedor e consumidor.
+- ✔ provedor, consumidor e desenvolvedor.
+- provedor, desenvolvedor e consumidor.
+
+## 2014
+
+**(Prefeitura de Osasco)** Uma nova tendência surgida nos últimos anos é a “computação em nuvem”. Observe as seguintes afirmativas sobre o uso de aplicativos por meio dessa modalidade.
+- I. Permite o uso de computadores locais com configurações de hardware mais simples e econômicas.
+- II. Permite acesso aos aplicativos por meio de outros computadores.
+- III. Não requer instalações de software sofisticadas nos computadores de onde é feito o acesso.
+- IV. O gerenciamento de pastas e arquivos dos aplicativos fica bastante simplificado.
+- V. Não requer o uso de senhas de acesso.
+
+NÃO está correta a afirmativa
+- I;
+- II;
+- III;
+- IV;
+- ✔ V.
+
+**(SEDUC-AM/2014)** _Cloud Computing_ ou Computação em Nuvem é uma tecnologia que permite acesso remoto a _softwares_ e a arquivos de documentos, músicas, jogos, fotos, vídeos e serviços por meio da Internet. O sistema permite rodar aplicativos e utilitários em nuvem e guardar os dados do usuário, dispensando o disco rígido do computador.
+
+Assinale a opção que indica três exemplos de serviços atualmente disponíveis de computação em nuvem.
+
+- Dropbox, iCloud e Android
+- Ubuntu, SkyDrive e Dropbox
+- iCloud, Android e Ubuntu
+- ✔ SkyDrive, Dropbox e iCloud
+- Android, Ubuntu e SkyDrive
+
+## 2013
+
+**(CONDER/2013)** A computação em nuvem tem sido considerada uma nova fronteira da era digital. Nuvem é uma metáfora para a Internet e seus serviços, como o acesso a informações e programas e o armazenamento de arquivos.
+
+Sobre essa tendência recente, assinale V para a afirmativa verdadeira e F para a afirmativa falsa.
+
+- (...) Esta tecnologia suscita problemas internacionais de tipo econômico e político, quando dados públicos são armazenados em arquivos privados, em países diversos daqueles dos usuários da nuvem.
+- (...) Os sistemas de computação em nuvem podem aumentar a “dívida digital” entre países ricos e pobres, caso o acesso ao conhecimento não seja livremente garantido a todos.
+- (...) A computação em nuvem torna o usuário dependente de investimentos crescentes em recursos de _hardware_ e _software_, que devem ser adquiridos junto ao servidor contratado.
+
+As afirmativas são, respectivamente,
+- F, V e F.
+- F, V e V.
+- V, F e F.
+- ✔ V, V e F.
+- F, F e V.

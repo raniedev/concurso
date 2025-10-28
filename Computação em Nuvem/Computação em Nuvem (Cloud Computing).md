@@ -1,3 +1,5 @@
+# Cloud Computing
+
 É um grande conjunto de **recursos virtualizados** de fácil acesso, os usuários podem demandar hardware, serviços e até mesmo plataformas completas. É um modelo onde o usuário paga apenas pela quantidade de recursos utilizados e podem ser ajustados e reconfigurados conforme desejar.
 
 A _nuvem_ computacional é que cuida de todo o trabalho de processamento e armazenamento de dados, ao usuário cabe somente se preocupar com sua acessibilidade a ela, que na maior parte dos casos, se resume ao acesso à internet.
@@ -107,7 +109,7 @@ Tem-se a infraestrutura de computação como um serviço, onde disponibilizam-se
 #### Microsoft
 - **Azure:** Oferece serviço de IaaS, como a locação de máquinas virtuais e armazenamento de arquivos, serviço de banco de dados SQL e distribuído globalmente (Azure Cosmos DB)
 
-### Tipos de Nuvens: Pública, Privada e Híbrida
+### Tipos de Nuvens: Pública, Privada, Comunitária e Híbrida
 As públicas são acessíveis em toda a internet, e as privadas ficam em um ambiente protegido (firewall) como o de uma empresa, com acesso restrito aos seus funcionários ou parceiros de negócios.
 
 - **Pública:** Maior risco de privacidade
@@ -120,6 +122,18 @@ As públicas são acessíveis em toda a internet, e as privadas ficam em um ambi
 	- Controle total
 - **Nuvem Comunitária:** A infraestrutura de uma nuvem comunitária é compartilhada por várias organizações que partilham interesses como a missão, requisitos de segurança, políticas, entre outros. Pode ser administrada pelas próprias organizações ou por um terceiro e pode existir no ambiente da empresa ou fora dele.
 - **Hibrida:** Uma composição de duas ou mais nuvens, sejam elas privadas, publicas ou comunitárias, combina recursos de nuvem pública e privada (ou infraestrutura local) em um ambiente integrado, permitindo que dados e aplicações sejam compartilhados entre eles.
+
+> Nuvem comunitária e multinuvem não é a mesma coisa.
+> **Multi-Cloud:** É o uso de duas ou mais nuvens de diferentes provedores (por exemplo, AWS + Azure + Google Cloud) ao mesmo tempo, normalmente para aproveitar o melhor de cada uma ou evitar dependência de um único fornecedor (_vendor lock-in_).
+## Explicação sobre a arquitetura multitenancy
+
+Multitenancy é uma arquitetura de software em que uma única instância do software opera em um ambiente compartilhado para atender a vários grupos diferentes de usuários, também chamados de tenants. As ofertas de Software como Serviço (SaaS) são um exemplo de arquitetura multitenant.
+
+Na cloud computing, a arquitetura multitenancy também se refere à hospedagem compartilhada, em que os recursos do servidor são divididos por diferentes clientes.
+
+>tenant = locatário
+
+Multitenancy é o oposto de single-tenancy: quando uma instância de software ou sistema de computador têm apenas um usuário final ou grupo de usuários.
 ### Os Tipos de Armazenamento
 
 **Armazenamento em Blocos (Block Storage):** Divide os dados em blocos de tamanho fixo, cada bloco tem um identificador único e pode ser armazenado separadamente. Muito usado por máquinas virtuais e bancos de dados. Oferece alto desempenho e baixa latência. 
