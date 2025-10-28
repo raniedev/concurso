@@ -5,7 +5,7 @@ Um ataque distribuído de negação de serviço de SYN é um tipo de ataque DDoS
 
 Conhecido como "ataque meio-aberto", um ataque de inundação SYN se aproveita de uma vulnerabilidade no handshake TCP/IP para sobrecarregar um servidor com conexões TCP, impedindo que ele forneça serviços para tráfego e conexões legítimas.
 
-![Syn Flood Attack](syn-flood-attack.webp)
+![Syn Flood Attack](imgs/syn-flood-attack.webp)
 ## Tipos e Variações dos Ataques DDoS de Inundação SYN
 
 ### Half-Open Connections

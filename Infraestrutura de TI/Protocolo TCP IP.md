@@ -21,7 +21,7 @@ O Protocolo TCP (*Transmission Control Protocol*) é o processo conhecido como *
 	Confirma o número de sequência do servidor. (Ack = y + 1)
 	"Recebi seu número `y`, vamos trocar dados."
 
-![Syn Syn-Ack Ack](syn-synack-ack.jpeg)
+![Syn Syn-Ack Ack](imgs/syn-synack-ack.jpeg)
 
 - **SPORT:** Source Port = Porta de Origem 
 	É uma porta qualquer entre **49152 e 65535** (faixa de portas efêmeras ou temporárias)

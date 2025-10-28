@@ -120,7 +120,18 @@ As públicas são acessíveis em toda a internet, e as privadas ficam em um ambi
 	- Controle total
 - **Nuvem Comunitária:** A infraestrutura de uma nuvem comunitária é compartilhada por várias organizações que partilham interesses como a missão, requisitos de segurança, políticas, entre outros. Pode ser administrada pelas próprias organizações ou por um terceiro e pode existir no ambiente da empresa ou fora dele.
 - **Hibrida:** Uma composição de duas ou mais nuvens, sejam elas privadas, publicas ou comunitárias, combina recursos de nuvem pública e privada (ou infraestrutura local) em um ambiente integrado, permitindo que dados e aplicações sejam compartilhados entre eles.
+### Os Tipos de Armazenamento
 
+**Armazenamento em Blocos (Block Storage):** Divide os dados em blocos de tamanho fixo, cada bloco tem um identificador único e pode ser armazenado separadamente. Muito usado por máquinas virtuais e bancos de dados. Oferece alto desempenho e baixa latência. 
+exs.: Amazon EBS, Google Persistent Disk, Azure Disk Storage
+
+**Armazenamento de Arquivos (File Storage):** Armazena dados em arquivos dentro de diretórios, com estrutura hierárquica (pastas). É acessado via protocolos como NFS (Linux) ou SMB (Windows), ideal para compartilhamento de arquivos e sistemas de rede. 
+exs.: Amazon EFS, Azure Files, Google Filestore.
+
+**Armazenamento de Objetos (Object Storage):** Armazena dados como **objetos individuais**, cada um com: dados (conteúdo), metadados (informações sobre o conteúdo), identificar único (id). Não é estrutura de diretórios, é plano. Usado para **grandes volumes de dados não estruturados** (vídeos, backups, imagens, logs etc.). 
+exs.: Amazon S3, Azure Blob Storage, Google Cloud Storage.
+
+![Tipos de Armazenamento em Nuvem](imgs/block-file-object-storage.png)
 ### Open Cloud Manifesto
 O Manifesto é uma tentativa de dar um rumo ao conceito de Computação em Nuvem que acredita que deve ser tão aberta como todas as outras tecnologias em TI, Com isso, qualquer um que tem poder computacional, ou seja, servidores web o suficiente, para possuir sua própria nuvem, poderia conseguir a tecnologia para montá-la.
 
