@@ -42,3 +42,4 @@ Esses campos fazem parte do **cabeçalho TCP ou UDP**, e **identificam quais apl
 ### Problemas de Cibersegurança
 
 😈 [Ataque DDoS](Ataque%20DDoS.md) de inundação SYN se aproveita de uma vulnerabilidade no handshake TCP/IP para sobrecarregar um servidor com conexões TCP.
+
