@@ -1,5 +1,6 @@
 ---
 Fonte 1: https://materialpublic.imd.ufrn.br/curso/disciplina/4/19/5/1
+Fonte 2: https://bytebytego.com/guides/big-endian-vs-little-endian/
 ---
 # Modelo OSI
 
@@ -41,6 +42,19 @@ Como as principais funções da camada física, podemos citar:
 
 > O repetidor é um equipamento da camada Física, pois ele apenas transmite bits. O mesmo se pode dizer do hub (até porque o hub é um repetidor multiporta).
 
+Alguns exemplos de interfaces físicas responsáveis pela transmissão de dados nos meios físicos, podem ser guiados ou não, onde o termo "ser guiado" é o mesmo que cabeado.
+
+- **Guiados (Cabeados):** O sinal é conduzido dentro de um meio físico. exemplos:
+	- Par trançado (UTP/STP), através do conector Porta RJ-45 (Ethernet)
+	- Cabo coaxial, através do conector BNC
+	- Fibra óptica, através do conector SC/LC
+- **Não guiados (Não cabeados):** O sinal se propaga pelo ar, sem um meio físico que o direcione
+	- Wi-Fi (radiofrequência)
+	- Bluetooth
+	- Infrared (Infravermelho)
+	- Satélite
+	- Micro-ondas
+
 
 ### RS-232 ou EIA RS-232C ou V.24
 
@@ -59,15 +73,15 @@ Ao enviar informação é chamado de **encapsulamento**, enquanto que o inverso 
 
 Cada camada do modelo pega os dados da camada superior, adiciona o seu próprio cabeçalho (ou rodapé) e passa para a camada inferior.
 
-| Camada               | Unidade de dados   | O que é adicionado                                              | Exemplo de função      |
-| -------------------- | ------------------ | --------------------------------------------------------------- | ---------------------- |
-| **7 – Aplicação**    | **Dados**          | —                                                               | Ex: HTTP, SMTP, DNS    |
-| **6 – Apresentação** | **Dados**          | Codificação/criptografia                                        | Ex: SSL/TLS            |
-| **5 – Sessão**       | **Dados**          | Controle de sessão                                              | Ex: RPC                |
-| **4 – Transporte**   | **Segmento**       | Cabeçalho com **porta origem/destino**, **número de sequência** | Ex: TCP, UDP           |
-| **3 – Rede**         | **Pacote**         | Cabeçalho com **endereços IP origem/destino**                   | Ex: IP, ICMP           |
-| **2 – Enlace**       | **Quadro (Frame)** | Cabeçalho + rodapé com **endereços MAC** e **CRC**              | Ex: Ethernet, PPP      |
-| **1 – Física**       | **Bits**           | Converte o quadro em **sinal elétrico / óptico / rádio**        | Ex: cabo, fibra, Wi-Fi |
+| Camada               | Unidade de dados   | O que é adicionado                                              | Exemplo de função        |
+| -------------------- | ------------------ | --------------------------------------------------------------- | ------------------------ |
+| **7 – Aplicação**    | **Dados**          | —                                                               | Ex: HTTP, SMTP, DNS      |
+| **6 – Apresentação** | **Dados**          | Codificação/criptografia                                        | Ex: SSL/TLS              |
+| **5 – Sessão**       | **Dados**          | Controle de sessão                                              | Ex: RPC                  |
+| **4 – Transporte**   | **Segmento**       | Cabeçalho com **porta origem/destino**, **número de sequência** | Ex: TCP, UDP             |
+| **3 – Rede**         | **Pacote**         | Cabeçalho com **endereços IP origem/destino**                   | Ex: IP, ICMP             |
+| **2 – Enlace**       | **Quadro (Frame)** | Cabeçalho + rodapé com **endereços MAC** e **CRC**              | Ex: Ethernet, PPP, Wi-Fi |
+| **1 – Física**       | **Bits**           | Converte o quadro em **sinal elétrico / óptico / rádio**        | Ex: cabo, fibra          |
 
 ## Camada 2: Enlace
 
@@ -129,7 +143,7 @@ As camadas físicas e de enlace juntas formam uma rede, ou seja, permitem que di
 
 A camada de rede define um novo tipo de endereço, chamado de **endereço lógico**, e este é completamente diferente do endereço da camada de enlace, que é chamado de **endereço físico**.
 
-![Router](router.png)
+![Router](imgs/router.png)
 > Os roteadores são equipamentos da camada de rede
 
 O usuário informa o endereço de rede da máquina com a qual quer se comunicar e existem protocolos que automaticamente traduzem o endereço de rede para o endereço de enlace da máquina de destino.
@@ -173,7 +187,7 @@ Um exemplo de uso das funções dessa sexta camada do modelo OSI seria a formata
 
 Big-endian e little-endian são duas maneiras de ordenar os bytes que compõem um dado de múltiplos bytes na memória de um computador. Big-endian armazena o byte mais significativo primeiro (no endereço de memória mais baixo), enquanto little-endian armazena o byte menos significativo primeiro. Essa diferença de ordem afeta como os dados são interpretados e é crucial para a comunicação entre diferentes sistemas.
 
-![Big Endian e Little Endian](big-endian-vs-little-endian.png)
+![Big Endian e Little Endian](imgs/big-endian-vs-little-endian.png)
 ### Camada 1: Aplicação
 
 Aplicações que se comunicam em rede devem especificar quais mensagens elas vão trocar, quais os formatos dessas mensagens e a ordem em que podem ser trocadas. Isso é um protocolo de aplicação. Desse modo, os programas são apenas implementações desses protocolos. Não importa qual é o nome do programa, ou seja, quem o escreveu, tudo que ele transmite e recebe deve seguir esse padrão. Assim, mesmo que tenhamos dois browsers diferentes enviando requisições para acessar o mesmo servidor web, as mensagens enviadas pelos dois serão idênticas.

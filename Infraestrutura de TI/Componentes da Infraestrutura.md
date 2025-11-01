@@ -14,7 +14,7 @@ A infraestrutura oferece a plataforma para suporte de todos os sistemas de infor
 ### Client Server Model
 Existem dois tipos de computação cliente/servidor: o de duas camadas e de multicamadas.
 #### Cliente Servidor de 2 Camadas
-Nesta computação, o processamento computacional é dividido entre máquinas clientes e máquinas servidoras conectadas por uma rede através do [protocolo TCP/IP](Protocolo%20TCP%20IP.md). O usuário interage com a interface das máquinas clientes e estas se comunicam com as máquinas servidoras conectadas por uma rede.
+Nesta computação, o processamento computacional é dividido entre máquinas clientes e máquinas servidoras conectadas por uma rede através do [protocolo TCP/IP](TCP%20IP.md). O usuário interage com a interface das máquinas clientes e estas se comunicam com as máquinas servidoras conectadas por uma rede.
 
 #### Cliente Servidor de Multicamadas (N-Tier ou 3-Tier)
 Divide as funções da aplicação em **três ou mais camadas**, para melhorar desempenho, segurança e escalabilidade.
