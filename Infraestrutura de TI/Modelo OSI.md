@@ -1,7 +1,3 @@
----
-Fonte 1: https://materialpublic.imd.ufrn.br/curso/disciplina/4/19/5/1
-Fonte 2: https://bytebytego.com/guides/big-endian-vs-little-endian/
----
 # Modelo OSI
 
 O modelo OSI (*Open System Interconnection*) é constituído de 7 camadas:
@@ -193,3 +189,8 @@ Big-endian e little-endian são duas maneiras de ordenar os bytes que compõem 
 Aplicações que se comunicam em rede devem especificar quais mensagens elas vão trocar, quais os formatos dessas mensagens e a ordem em que podem ser trocadas. Isso é um protocolo de aplicação. Desse modo, os programas são apenas implementações desses protocolos. Não importa qual é o nome do programa, ou seja, quem o escreveu, tudo que ele transmite e recebe deve seguir esse padrão. Assim, mesmo que tenhamos dois browsers diferentes enviando requisições para acessar o mesmo servidor web, as mensagens enviadas pelos dois serão idênticas.
 
 A camada de aplicação corresponde à definição desses protocolos. Com ela, os programas passam a ser apenas a implementação dos protocolos, permitindo, assim, que programas escritos por diferentes pessoas possam se comunicar. Existem protocolos de aplicação para e-mail, web, transferência de arquivos, tradução de nomes de máquinas para endereços numéricos, entre vários outros.
+
+## Referências
+
+- <a href="https://materialpublic.imd.ufrn.br/curso/disciplina/4/19/5/1" target="_blank">Modelo OSI</a>
+- <a href="https://bytebytego.com/guides/big-endian-vs-little-endian/" target="_blank">Big Endian vs Little Endian</a>
