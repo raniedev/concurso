@@ -47,12 +47,11 @@ as outras alternativas como advérbio de intensidade
 ~~~
 
 (2025) Assinale a frase em que “um/uma” é classificado como numeral e não como artigo.
-
-✔ - A ABL (Academia Brasileira de Letras) se compõe de trinta e nove membros e <u>um</u> morto rotativo.
-B - O silêncio é de ouro, mas <u>uma</u> boa canção pode chegar à platina.
-C - <u>Uma</u> música que se preze nunca é objetiva.
-D - A expressão mais genuína de <u>um</u> povo reside na dança e na música.
-E - Conheci <u>um</u> autor francês que falava dezoito idiomas.
+- ✔ - A ABL (Academia Brasileira de Letras) se compõe de trinta e nove membros e <u>um</u> morto rotativo.
+- B - O silêncio é de ouro, mas <u>uma</u> boa canção pode chegar à platina.
+- C - <u>Uma</u> música que se preze nunca é objetiva.
+- D - A expressão mais genuína de <u>um</u> povo reside na dança e na música.
+- E - Conheci <u>um</u> autor francês que falava dezoito idiomas.
 ~~~
 39 membros (quantidade) + um morto rotativo = numeral
 as outras alternativas como artigo indefinido

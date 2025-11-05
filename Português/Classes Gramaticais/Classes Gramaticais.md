@@ -1,6 +1,3 @@
----
-Autor: Ranie
----
 # As 10 Classes Gramaticais
 ## 6 Classes Variáveis
 ### Substantivo
