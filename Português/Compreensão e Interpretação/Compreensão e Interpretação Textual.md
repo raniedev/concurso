@@ -15,9 +15,9 @@ O texto expressa uma visão:
 - c) otimista, ao mostrar que os encontros continuam possíveis.
 - d) técnica, ao propor soluções para o ruído urbano.
 - e) neutra, ao descrever fatos sem emitir julgamentos.
-~~~
-O texto expressa saudade de tempos passados, em que se ouvia o som dos pássaros e conversava-se na calçada, e critica o ruído da vida urbana contemporânea e a pressa.
-~~~
+
+> O texto expressa saudade de tempos passados, em que se ouvia o som dos pássaros e conversava-se na calçada, e critica o ruído da vida urbana contemporânea e a pressa.
+
 ## Interpretação
 
 É uma análise subjetiva do que o texto sugere, o que está além do texto. A interpretação compreende inferência e dedução, desafiando-o a ir além do que está explicitamente apresentado no texto. Ao inferir, é essencial identificar pistas textuais que justifiquem a dedução proposta.
@@ -37,9 +37,8 @@ Pode-se inferir do segmento “A sociedade moderna, com o corre-corre, a falta d
 - ✔ atualmente há mais possibilidade do desenvolvimento de doenças psicossomáticas do que anteriormente;
 - d) a falta de cuidado espiritual traz como consequência o relaxamento com os valores materiais;
 - e) as doenças psicossomáticas surgiram a partir das atribulações da vida moderna
-~~~
-Inferência obtida: Ao mencionar que “a sociedade moderna fez com que as pessoas desenvolvessem com mais facilidade”, o autor sugere a possibilidade de um desenvolvimento mais acessível atualmente em comparação com o passado.
-~~~
+
+> Inferência obtida: Ao mencionar que “a sociedade moderna fez com que as pessoas desenvolvessem com mais facilidade”, o autor sugere a possibilidade de um desenvolvimento mais acessível atualmente em comparação com o passado.
 ## Referências
 
 - <a href="https://professora.adrianafigueiredocursos.com.br/blog/interpretacao-de-textos-para-concurso/">Interpretação de Textos</a> (Professora Adriana Figueiredo)

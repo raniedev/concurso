@@ -5,4 +5,4 @@ O ICMP (*Internet Control Message Protocol*) ou Protocolo de Mensagens de Contro
 > 😈 Ele também pode ser usado para realizar ataques de negação de serviço distribuído (DDoS).
 
 ## Cabeçalho ICMP
-![ICMP](icmp.png)
+![ICMP](../imgs/icmp.png)

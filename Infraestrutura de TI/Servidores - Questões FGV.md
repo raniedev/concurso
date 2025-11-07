@@ -17,11 +17,7 @@ A sequência correta é:
 - 2, 3, 1;
 - 3, 1, 2.
 
-~~~
-Portas que operam
-IMAP version 3 = 220/TCP, UDP (antiga)
-IMAP version 4 = 143/TCP, UDP (atual)
-IMAPS (IMAP4 com SSL) = 993/TCP
-~~~
-
-
+> Portas que operam
+> IMAP version 3 = 220/TCP, UDP (antiga)
+> IMAP version 4 = 143/TCP, UDP (atual)
+> IMAPS (IMAP4 com SSL) = 993/TCP

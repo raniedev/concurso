@@ -125,7 +125,7 @@ Embora seja muito importante, essa característica não é obrigatória para a c
 - Cria um domínio de colisão por porta, onde cada dispositivo tem sua conexão dedicada.
 - Pode operar em modo full-duplex, sem colisões
 
-![Switch](switch.jpg)
+![Switch](imgs/switch.jpg)
 
 ## Camada 3: Rede
 

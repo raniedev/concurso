@@ -76,11 +76,10 @@ Assinale a opção que indica a relação correta, segundo a ordem apresentada.
 - hardware do data center, interface com o usuário e sistema operacional.
 - hardware do data center, camada de aplicativos e serviços e tecnologia de acesso.
 
-~~~
-Front-end: interface com o usuário, tecnologia de acesso, cliente web
-Back-end: hardware, virtualização, sistema operacional, camada de serviços
-Infraestrutura Híbrida é um modelo de implementação
-~~~
+> Front-end: interface com o usuário, tecnologia de acesso, cliente web
+> Back-end: hardware, virtualização, sistema operacional, camada de serviços
+> Infraestrutura Híbrida é um modelo de implementação
+
 **(Dataprev/2024)** Uma empresa de comércio eletrônico que atende clientes em todo o território nacional está expandindo rapidamente e busca migrar sua infraestrutura para a nuvem. A empresa tem como prioridade garantir alta disponibilidade, baixa latência, escalabilidade e recuperação de desastres, ao mesmo tempo em que precisa otimizar seus custos operacionais.
 
 Dado o contexto de operação nacional e os requisitos da empresa, a arquitetura de nuvem correta para essa organização é
@@ -99,9 +98,8 @@ Dado o contexto de operação nacional e os requisitos da empresa, a arquitetura
 - modelos SaaS na nuvem privada são mais caros que na nuvem pública, porém modelos IaaS e PaaS apresentam custos semelhantes em ambos os tipos de nuvem.
 - ✔ nuvens privadas minimizam ou eliminam o multitenancy, enquanto nas nuvens públicas o multitenancy é um conceito central.
 
-~~~
-Multitenacy = Multilocação que é quando vários clientes diferentes da nuvem acessam os mesmos recursos computacionais.
-~~~
+> Multitenacy = Multilocação que é quando vários clientes diferentes da nuvem acessam os mesmos recursos computacionais.
+
 **(STN - Auditor Federal/2024)** A estratégia de gestão de infraestrutura em tecnologia da informação que busca a flexibilidade operacional por meio do uso combinado de diferentes serviços de nuvem pública, como _Amazon Web Services_ (AWS), Microsoft Azure e Google Cloud Platform, permitindo que uma organização se beneficie das características únicas de cada serviço, conforme suas necessidades específicas, é conhecida como
 
 - Infraestrutura Hiperconvergente (HCI).
@@ -177,9 +175,7 @@ Em relação ao modelo de implantação da arquitetura de nuvem, as soluções:
 - A e C são nuvens públicas, enquanto B é nuvem privada;
 - A e B formam uma nuvem híbrida, enquanto C é nuvem privada.
 
-~~~
-"Todas as soluções atendem EXCLUSIVAMENTE à CVM", por ser exclusivo todas elas são nuvens privadas.
-~~~
+> Todas as soluções atendem EXCLUSIVAMENTE à CVM", por ser exclusivo todas elas são nuvens privadas.
 
 **(Prefeitura de São José dos Campos/2024)** Com relação ao Google Drive, analise as afirmativas a seguir.
 
@@ -224,10 +220,8 @@ Assinale a opção que indica a tecnologia de armazenamento que usa pratos girat
 - ssd.
 - usb.
 
-~~~
-Note que HDD = Hard Disk Drive
-SSD é memória flash
-~~~
+> Note que HDD = Hard Disk Drive
+> SSD é memória flash
 
 ## 2022
 
@@ -255,9 +249,7 @@ Marque a opção corrreta:
 - Implementar política solicitando que os usuários criptografem os dados antes de utilizarem os serviços externos.
 - Implementar uma ferramenta de antivírus com _sandboxing_ em todas as estações da rede da empresa.
 
-~~~
-CASB é a sigla para Cloud Access Security Broker (Corretor de Segurança de Acesso à Nuvem), uma ferramenta de segurança que atua entre usuários e serviços em nuvem para aplicar políticas de segurança, garantir a conformidade e proteger dados. Ele fornece visibilidade sobre o uso da nuvem, proteção contra ameaças, prevenção de perda de dados (DLP) e controle de acesso para garantir que os dados corporativos na nuvem sejam seguros.
-~~~
+> CASB é a sigla para Cloud Access Security Broker (Corretor de Segurança de Acesso à Nuvem), uma ferramenta de segurança que atua entre usuários e serviços em nuvem para aplicar políticas de segurança, garantir a conformidade e proteger dados. Ele fornece visibilidade sobre o uso da nuvem, proteção contra ameaças, prevenção de perda de dados (DLP) e controle de acesso para garantir que os dados corporativos na nuvem sejam seguros.
 
 **(MPE GO/2022)** Júlia e seus colegas de faculdade estão fazendo um trabalho em grupo e decidiram compartilhar seus arquivos de imagens e texto na nuvem de modo que cada integrante do grupo possa ver e acessar as atualizações dos outros pela Internet.
 Para compartilhar na nuvem os arquivos do trabalho com os colegas do grupo, Júlia deve usar o
