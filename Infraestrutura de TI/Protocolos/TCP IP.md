@@ -64,7 +64,7 @@ Em sistemas distribuídos, supõe-se que uma mensagem enviada por um nó chegue 
 
 ### Problemas de Cibersegurança
 
-😈 [Ataque DDoS](Cibersegurança/Ataque%20DDoS.md) de inundação SYN se aproveita de uma vulnerabilidade no handshake TCP/IP para sobrecarregar um servidor com conexões TCP.
+😈 [Ataque DDoS](../../Cibersegurança/Ataque%20DDoS.md) de inundação SYN se aproveita de uma vulnerabilidade no handshake TCP/IP para sobrecarregar um servidor com conexões TCP.
 
 ## Referências
 
