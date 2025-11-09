@@ -10,6 +10,12 @@ O time consiste de um *Product Owner*, Time de Desenvolvimento e *Scrum Master*.
 
 É um método ágil da gestão de projetos para torná-los menos dispendiosos, mais flexíveis e eficientes. Os processos são divididos em <u>ciclos chamados de Sprints</u>, onde cada sprint possui prazos e objetivos específicos.
 
+### Pilares do Scrum
+
+- **Transparência:** dos processos, requisitos de entrega e status. Todos os processos devem estar visíveis e alinhados com todos os responsáveis pelos resultados.
+- **Inspeção:** Constante de tudo o que está sendo feito.
+- **Adaptação:** Adaptar para a realidade e cultura da empresa.
+
 ### Ciclo da Scrum
 
 ![Ciclo da Scrum](../imgs/ciclo-scrum.webp)
@@ -42,6 +48,10 @@ Os 8 papéis de um Scrum Master
 - não reconhece títulos para os integrantes
 - não reconhece sub-times
 - responsabilização do time como um todo
+
+### Papéis
+
+![Papéis Scrum](../imgs/papeis-scrum.jpg)
 ## Etapas
 ### Product Backlog
 
@@ -101,11 +111,11 @@ Para as perguntas que o PO não tiver resposta ele poderá aproveitar para formu
 
 - Intervalo de tempo em que será criado um incremento do produto, geralmente entre 2 até 4 semanas;
 - Contém as seguintes etapas: 
-	1. Planejamento da Sprint
-	2. Reuniões Diárias
-	3. Desenvolvimento
-	4. Revisão da Sprint
-	5. Retrospectiva da Sprint
+	1. Planejamento da Sprint (até 8 horas / mês)
+	2. Reuniões Diárias (15 minutos)
+	3. Desenvolvimento 
+	4. Revisão da Sprint (até 4 horas / mês)
+	5. Retrospectiva da Sprint (até 3 horas / mês)
 - O escopo (lista de requisitos) pode ser clarificado e renegociados entre o Product Owner e o Time de desenvolvimento quanto mais for aprendido.
 
 ### Sprint Backlog
@@ -139,7 +149,6 @@ Para as perguntas que o PO não tiver resposta ele poderá aproveitar para formu
 - Oportunidade para o Time Scrum inspecionar a si próprio e criar um plano para melhorias a serem aplicadas na próxima Sprint
 - Ocorre depois da Revisão da Sprint e antes do planejamento da próxima Sprint
 - Ao final da Retrospectiva da Sprint, o Time Scrum deverá ter identificado melhorias que serão implementadas na próxima Sprint
-    v   
 ## Referências
 
 - [Product Backlog](https://www.oitchau.com.br/blog/product-backlog)
