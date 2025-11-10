@@ -71,8 +71,7 @@ Todas as Product Backlog <u>são definidas pelo Product Owner</u>. Através de 
 
 O Product Backlog é ordenado conforme a prioridade das ações. Essas ações irão fazer parte dos Sprints da equipe, organizados conforme a importância de cada tarefa.
 
-O Product Owner apresenta para a equipe quais são as necessidades dos usuários para esses itens, dividindo as etapas da construção do software em sprints e priorizando aqueles de maior dificuldade e que demandam mais tempo.
-
+O Product Owner apresenta para a equipe quais são as necessidades dos usuários para esses itens, dividindo as etapas da construção do software em sprints e priorizando aqueles de maior dificuldade e que demandam mais tempo. 
 #### Etapas do Product Backlog
 
 1. Mapeamento das necessidades dos usuários do produto pelo Product Owner, lembrando que pode ser um produto novo ou um que já esteja no mercado
@@ -84,7 +83,7 @@ O Product Owner apresenta para a equipe quais são as necessidades dos usuários
 7. Se algum Product Backlog não ficou claro para a equipe ou foi considerado difícil, o Product Owner deverá reformular sua descrição e buscar maior clareza sobre as necessidades dos usuários
 8. Por fim, o processo começa novamente, buscando sempre a evolução do produto, e sua adaptação às mudanças do mercado
 
-o Product Owner responsável pela definição dos Product Backlogs deve ter em mente que esse trabalho é cíclico e está sujeito às mudanças constantes que envolvem o desenvolvimento do produto.
+O Product Owner responsável pela definição dos Product Backlogs deve ter em mente que esse trabalho é cíclico e está sujeito às mudanças constantes que envolvem o desenvolvimento do produto.
 
 Todas as etapas do Scrum são passíveis de mudanças repentinas, como os Sprints e até mesmo as próprias Backlogs do produto, tendo em vista que a mentalidade do consumidor pode mudar rapidamente atualmente.
 
@@ -107,6 +106,28 @@ Para as perguntas que o PO não tiver resposta ele poderá aproveitar para formu
 - Responde as seguintes questões:
 	- <u>O que</u> pode ser entregue como resultado do incremento da próxima Sprint?
 	- <u>Como</u> o trabalho necessário para entregar o incremento será realizado?
+
+#### Story Points
+
+São unidades de medida para expressa uma estimativa do esforço geral necessário para concluir uma história de usuário (ou tarefa). Eles não medem tempo diretamente (como horas), mas sim o nível de complexidade, volume de trabalho e risco. ex.:
+
+| Tipo de Tarefa     | Pontuação |
+| ------------------ | --------- |
+| Simples            | 1         |
+| Média Complexidade | 3         |
+| Complexa           | 5         |
+| Muito Complexa     | 8 ou 13   |
+
+> As equipes geralmente usam a **Sequência de Fibonacci**: 1, 2, 3, 5, 8, 13, 21... porque ela reflete bem o crescimento não linear da complexidade.
+
+### *Definition of Ready* (DoR)
+
+É um conjunto de <u>critérios definidos pelo time</u>, que detalha as condições que uma story precisa atingir/ conter para que possa ser trabalhada pelo time. Basicamente, é também um critério de entrada no backlog da sprint. Um DoR conterá:
+
+- Requisitos bem definidos.
+- Critérios de aceitação claros.
+- Dependências resolvidas.
+- Aprovação do Product Owner.
 ## Sprint
 
 - Intervalo de tempo em que será criado um incremento do produto, geralmente entre 2 até 4 semanas;
@@ -117,7 +138,6 @@ Para as perguntas que o PO não tiver resposta ele poderá aproveitar para formu
 	4. Revisão da Sprint (até 4 horas / mês)
 	5. Retrospectiva da Sprint (até 3 horas / mês)
 - O escopo (lista de requisitos) pode ser clarificado e renegociados entre o Product Owner e o Time de desenvolvimento quanto mais for aprendido.
-
 ### Sprint Backlog
 
 - É uma lista de atividades que precisam ser feitas durante uma Sprint.
@@ -128,6 +148,16 @@ Para as perguntas que o PO não tiver resposta ele poderá aproveitar para formu
 - <u>Somente o Product Owner</u> tem a autoridade para cancelar a Sprint
 - A Sprint poderá ser cancelada se o objetivo da Sprint se tornar obsoleto
 - Todos os itens de Backlog do produto incompletos são reestimados e colocados de volta no backlog do produto.
+
+### *Definition of Done* (DoD)
+
+É um acordo da equipe sobre o que significa que uma tarefa (ou história de usuário) está realmente concluída.  Serve para garantir qualidade, consistência e transparência.
+
+Exemplo de critérios de “Done”:
+- Código revisado e testado. 
+- Passou nos testes de QA.
+- Documentação atualizada.
+- Publicado em ambiente de produção.
 
 ### *Daily Meeting / Daily Scrum*  (Reunião Diária)
 
@@ -153,6 +183,4 @@ Para as perguntas que o PO não tiver resposta ele poderá aproveitar para formu
 
 - [Product Backlog](https://www.oitchau.com.br/blog/product-backlog)
 - [Grooming / Refinement](https://robsoncamargo.com.br/blog/Conheca-as-melhores-praticas-de-uma-backlog-grooming)
-
-
-
+- [Definition of Ready e Definition of Done](https://www.machertecnologia.com.br/definition-of-ready-definition-of-done/)
