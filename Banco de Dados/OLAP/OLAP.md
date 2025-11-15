@@ -23,7 +23,7 @@ Onde a **dimensão tempo** seria (2022 até 2025), a **dimensão região** (Nort
 |     T4     |  2025   |     R4     | Sudeste  |     P4     |  Bicicletas  |
 ## OLAP x OLTP
 
-Os bancos de dados tradicionais também possuem suporte para o processamento de transações de um negócio, através da ferramenta OLTP (Online Transaction Processing). O Processamento de Transações Online é focado em realizar <u>transações rotineiras e cotidianas</u> em **tempo real**, com muita agilidade, através de **inserções, exclusões e atualizações** de informações, sendo também possível a consulta dos dados.
+Os bancos de dados tradicionais também possuem suporte para o processamento de transações de um negócio, através da ferramenta [OLTP (Online Transaction Processing)](../OLTP/OLTP.md). O Processamento de Transações Online é focado em realizar <u>transações rotineiras e cotidianas</u> em **tempo real**, com muita agilidade, através de **inserções, exclusões e atualizações** de informações, sendo também possível a consulta dos dados.
 
 Essa é a diferença OLTP é focada nestas transações citadas anteriormente, enquanto que o OLAP tem o foco em análises, de maneira a subsidiar decisões gerenciais e estratégicas, além de ter <u>características transacionais</u> e focado em <u>modelos multidimensionais.</u>
 
