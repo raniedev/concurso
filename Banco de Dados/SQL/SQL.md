@@ -3,11 +3,10 @@
 SQL é uma linguagem de consulta estruturada, utilizada em banco de dados relacionais sob a forma de comandos. Apesar de ter consulta no nome, ela é utilizada para realizar outras operações que envolvam dados, tais como inserções, remoções etc.
 ## Classificação dos comandos em SQL
 
+- **Data Definition Language (DDL):** Comandos em SQL que atuam diretamente nas estruturas dos objetos de bancos. Só para exemplificar, os objetos podem ser tabelas, índices, sequências etc.
 - **Data Manipulation Language (DML):** Comandos em SQL de manipulação dos dados nas tabelas. Em outras palavras, não alteram as tabelas, mas podem impactar os dados armazenados nelas.
 - **Data Query Language (DQL):** Comandos em SQL de consulta aos dados nas tabelas.
 >**ATENÇÃO:** A adoção do DQL para os comandos de consulta não é unânime. Alguns autores consideram esses comandos como DML, enquanto outros os consideram como DQL. Normalmente, a questão trará apenas um dos dois no gabarito. Contudo, se os dois estiverem entre as alternativas possíveis, recomendamos que marque o DQL, por ser mais específico.
-
-- **Data Definition Language (DDL):** Comandos em SQL que atuam diretamente nas estruturas dos objetos de bancos. Só para exemplificar, os objetos podem ser tabelas, índices, sequências etc.
 - **Data Control Language (DCL):** Comandos em SQL envolvendo permissões de acesso ao banco. Nesse sentido, estão atrelados diretamente com a segurança da informação.
 - **Data Transaction Language (DTL):** Comandos em SQL relacionados com as transações no banco. São eles que confirmam ou desfazem as operações realizadas, em caso de sucesso ou erro.
 
@@ -57,10 +56,36 @@ WHERE id <= 5
 Sintaxe:
 ~~~SQL
 ALTER TABLE Tabela
-[ADD coluna tipo] | [DROP COLUMN coluna tipo] | [RENAME COLUMN coluna TO novacoluna]
+[ADD coluna tipo] | [DROP COLUMN coluna] | [RENAME COLUMN coluna TO novacoluna]
 ~~~
 > A barra | para a Sintaxe indica um operador lógico OR
 
+SQL:
+
+~~~SQL
+ALTER TABLE Colaborador
+ADD experiencia int;
+
+ALTER TABLE Colaborador
+DROP COLUMN cidade;
+
+ALTER TABLE Colaborador
+RENAME COLUMN nome TO nome_colaborador;
+~~~
+
+**Comando TRUNCATE:** Remoção dos dados de uma tabela, mantendo a sua estrutura.
+
+~~~SQL
+TRUNCATE TABLE Tabela
+~~~
+
+**Comando DROP:** Remoção dos dados e da estrutura de uma tabela.
+
+~~~SQL
+DROP TABLE Tabela
+~~~
+
+> **ATENÇÃO:** Observe que o _TRUNCATE_ apaga apenas os dados de uma tabela, mantendo a sua estrutura. Contudo, ele não é considerado um comando DML, mas sim DDL. Cuidado para não confundir com o _DELETE_.
 ### DML
 
 **Comando INSERT:** Inserção dos dados na tabela (padrão). 
@@ -240,5 +265,62 @@ GROUP BY cidade
 HAVING COUNT(*) > 10
 ORDER BY cidade DESC
 ~~~
+
+## DCL
+
+**Comando GRANT:** Concede privilégio a um determinado usuário ou papel, sobre uma tabela (padrão).
+
+Sintaxe:
+~~~SQL
+GRANT (Privilégio)
+ON Tabela
+TO (Usuário | Papel)
+~~~
+
+SQL:
+~~~SQL
+GRANT SELECT
+ON Colaborador
+TO usuario_comum
+~~~
+
+Para conceder privilégio a um determinado usuário ou papel, sobre uma tabela, e permite que o beneficiado estenda o privilégio a outros.
+
+Sintaxe:
+~~~SQL
+GRANT (Privilégio)
+ON Tabela
+TO (Usuário | Papel)
+[WITH GRANT OPTION]
+~~~
+
+SQL:
+~~~SQL
+GRANT SELECT
+ON Colaborador
+TO administrador
+WITH GRANT OPTION
+~~~
+
+**Comando REVOKE:** Revoga privilégio concedido a um determinado usuário ou papel, sobre uma tabela.
+
+Sintaxe:
+~~~SQL
+REVOKE (Privilégio)
+ON Tabela
+FROM (Usuário | Papel)
+~~~
+
+SQL:
+~~~SQL
+REVOKE SELECT
+ON Colaborador
+FROM usuario_comum
+~~~
+
+## DTL
+
+**Comando COMMIT:** Confirma as operações realizadas na base de dados.
+**Comando ROLLBACK:** Desfaz as operações realizadas na base de dados.
 ## Referências
 - [SQL](https://www.estrategiaconcursos.com.br/blog/banco-dados-principais-comandos-sql/)
