@@ -7,20 +7,50 @@
 	- Um conjunto de registradores (contador de programa)
 - O Sistema Operacional controla todos os processos, sejam os criados pelos usuários, e os criados por ele mesmo
 
+## Criação de Processo
+
+A criação do processo é formada por quatro eventos, são eles:
+1. A inicialização do sistema, seja ele operacional ou não. 
+2. A chamada de um determinado sistema por um processo em execução, criando assim um ou vários processos. 
+3. A solicitação do usuário, gera a criação de um ou vários processos também. 
+4. Tarefas em lotes, ou mesmos chamadas de clusters
+
+## Termino de Processo
+
+Logo depois de criado e inicializado o processo realiza a tarefa para qual foi criado, possivelmente logo que findado sua execução o processo será encerrado e umas das condições a seguir acontecerá: 
+1. Saída Normal (voluntária).
+2. Erro fatal (involuntário).
+3. Saída por erro (voluntário).
+4. Morto por outro processo (involuntário).
+
 ## Estados de um Processo
 
 ![Estados de um Processo](../imgs/estados-processo.jpg)
-- **Execução:** em um sistema monoprocessado, apenas um processo pode estar fazendo uso da seção de processamento da CPU, em sistemas multiprocessados, apenas de existirem vários processos em execução simultânea, <u>vale ressaltar que cada núcleo de processamento executa somente uma por vez.</u>;
-- **Bloqueado:** quando um processo não pode prosseguir com sua execução, pois necessita que algum evento ocorre antes;
-- **Pronto:** o processo encontra-se carregado na memória pronto para iniciar sua execução, bastando somente ser selecionado pelo escalonador de processos.
+- **Execução (*Running*):** em um sistema monoprocessado, apenas um processo pode estar fazendo uso da seção de processamento da CPU, em sistemas multiprocessados, apenas de existirem vários processos em execução simultânea, <u>vale ressaltar que cada núcleo de processamento executa somente uma por vez.</u>;
+- **Bloqueado (*Wait*):** quando um processo não pode prosseguir com sua execução, pois necessita que algum evento ocorre antes;
+- **Pronto (*Ready*):** o processo encontra-se carregado na memória pronto para iniciar sua execução, bastando somente ser selecionado pelo escalonador de processos.
 
-### Processo Bloqueado (Suspenso)
+## Etapas
+
+1. O processo é bloqueado aguardando uma entrada
+2. O escalonador seleciona outro processo
+3. O escalonador seleciona esse processo
+4. A entrada torna-se disponível
+## Processo Bloqueado (Suspenso)
 
 Quando o SO suspende um processo P1 temporariamente para executar um processo P2, o processo P1 deve ser reiniciado exatamente no mesmo estado no qual estava ao ser suspenso.
 
 Todas as informações a respeito do processo P1 são armazenadas em uma **tabela de processos** (*process table*). Essa tabela é implementada com <u>um vetor ou uma lista encadeada de estruturas.</u>
 
-### Processos-Filhos
+## Threads
+
+Threads é a tarefa que determinado processo ou programa realiza, também, é a forma de um processo dividir a si mesmo em duas ou mais tarefas e estas podem ser executadas concorrentemente. Entre as vantagens de usar as Threads podemos citas as seguintes:
+
+- **Simplifica o modelo de programação:** em aplicações, ocorrem o que chamamos de múltiplas atividades simultâneas, algumas destas podem ser bloqueadas de tempos em tempos. Quando simplifico a programação do código da aplicação, facilito o trabalho das Threads. 
+- **As Threads são bem mais rápidas para criar e destruir:** uma vez que identificado que não existe recurso preso ou mesmo associados a ela, fica bem mais fácil e rápido o processo de destruição e o liberar de memória.
+- **Desempenho:** o desempenho acontece devido as Threads sobrepor atividades, acelerando assim a aplicação.
+
+## Processos-Filhos
 
 Quando um processo executa outro processo, as características para a hierarquia de processos:
 - Comunicação (Interação) e Sincronização
@@ -37,7 +67,7 @@ Processo A (pai)
  │     └── Processo E (filho de B)
  └── Processo C (filho)
 
-#### Hierarquia no Linux/Unix
+## Hierarquia no Linux/Unix
 
 1. **Processo raiz:** PID 1 (init/systemd): Todo o sistema começa com o processo PID 1, ele é o pai de todos os processos.
 2. **Criação com fork() e exec():** Onde o `fork()` cria um clone do processo atual e `exec()` substitui o coteúdo do clone por outro programa
@@ -50,7 +80,7 @@ Processo A (pai)
 4. **Zombies e Orphans:** Hierarquia também explica dois fenômenos
 	- **Processo Zumbi:** O processo terminou, mas o pai não chamou `wait()`, logo continuará como entrada na tabela de processos
 	- **Processo Orfão:** O pai terminou antes do filho, o sistema adota o filho para que ele seja o processo 1 (*init/systemd*)
-### Hierarquia no Windows
+## Hierarquia no Windows
 
 No Windows a hierarquia é **mais fraca**:
 - Processos também têm pai (quem os criou).
@@ -60,7 +90,7 @@ No Windows a hierarquia é **mais fraca**:
 
 Essa diferença faz com que "árvores de processos" no Windows sejam menos determinantes.
 
-### Escalonadores de Processos (*Schedulers*)
+## Escalonadores de Processos (*Schedulers*)
 
 Processo que escolhe qual será o próximo processo a ser executado, decidem qual processo vai usar a CPU, quando, e por quanto tempo. Sem eles, vários programas não conseguiriam compartilhar  processador de maneira eficiente. Vai lidar com:
 - Performance
@@ -97,11 +127,19 @@ Os sistemas operacionais geralmente têm **três níveis** de escalonamento:
 5. **Fila Múltiplas (Multilevel Queue):** Várias filas com prioridades diferentes (ex.: sistema, usuário, lote), os processos não mudam de fila.
 6. **MFQ (Multilevel Feedback Queue):** Processos podem mudar de fila conforme comprotamento
 
-### Comunicação entre Processos (Inter-Process Communacation)
+## Comunicação entre Processos (Inter-Process Communacation)
 
 É um mecanismo que permite que dois ou mais processos realizem a troca de dados entre si. Isso é extremamente útil devido ao fato que um processo possui sua própria região de memória onde outros processos não tem a permissão de acessar aquele espaço de memória.
 
-#### Tipos de IPC
+- **Condições de Corrida:** Isto ocorre quando dois processos em um sistema operacional, compartilham pedaços de uma mesma memória e eles podem ler, escrever e apagar parte deste pedaço de memória
+- **Regiões Críticas:** Quando há compartilhamento de pedaço de memória , usamos exclusão mútua, para garantir que aquela região usada ou compartilhada não possa ser escrita ou mesmo usada por outro processo que não tenha permissão ou não seja fruto de condição de corrida.
+- **Exclusão Mútua com Espera Ocupada:** Proteger a memória que está sendo usada no processo para que não seja usada por outro processo e cause uma interrupção, dentro deste conceito temos várias propostas, entre elas:
+	- O Desabilitar de interrupções
+	- As Variáveis do tipo trava
+	- A Alternância explicita
+	- Solução de Peterson
+
+### Tipos de IPC
 
 - **pull-based:** requer um meio, um armazenamento para compartilhar os dados, isso porque os processos que querem ler esses dados precisam dar um *pull* desses dados. Neste caso será lido pelo elemento intermediário como um repositório de dados, onde um processo pode escrever dados nesse repositório enquanto outro processo realiza a leitura desses dados. É fortemente recomendado realizar a sincronia para que não haja concorrência. São eles:
 	- **FIFO:** É uma fila de mensagens com arquivo presente no *filesystem*, onde o processo que envia deve escrever nesse arquivo, e o processo interessado nesses dados deve ler esse arquivo, e pode se comunicar entre processos não relacionados.
@@ -115,7 +153,17 @@ Os sistemas operacionais geralmente têm **três níveis** de escalonamento:
 	- **Socket:** é um dispositivo de comunicação bidirecional que pode ser usado para comunicar um processo com outro processo na mesma máquina ou com um processo executando em uma outra máquina. A conexão entre os processos pode ocorrer através de Bluetooth, TCP, UDP.
 	- **PIPE:** é um dispositivo de comunicação que permite comunicação unidirecional. O dado é escrito para o _“write end”_ do _PIPE_ e é lido do _“read end”_. Os _PIPE’s_ são disposivos seriais, o dado é sempre lido na mesma ordem que foi escrito.
 	- **DBUS:** é um barramento de mensagens de sistema, um jeito simples para aplicações conversar umas com as outras. Além da comunicação intra-processos, ajuda a coordenar o ciclo de vida do processo, tornando simples e confiável a codificação de um aplicativo ou _daemon_ de uma única instância, e inicia os aplicativos e _daemons_ sob demanda quando o serviço for requisitado.
+
+## Compartilhamento de Memória
+
+- **Partições Fixas:**
+	- Cada processo é alocado em uma data partição da memória (pré-definida)
+	- Partições são liberadas quando o processo termina
+- **Partições Variáveis:** 
+	- A memória é alocada de acordo com o tamanho e número de processos
+	- Otimiza o uso d memória
 ## Referências
 
 - [Sistemas Operacionais - Noções Principais](https://www.professores.uff.br/mquinet/wp-content/uploads/sites/42/2017/08/2.pdf)
 - [Comunicação entre Processos - IPC](https://embarcados.com.br/comunicacao-entre-processos/)
+- [Gerenciamento de Processos](https://free-content.direcaoconcursos.com.br/demo/curso-11607.pdf)
