@@ -4,25 +4,30 @@
 
 **Objetivo:** O poder público deve proteger os dados sejam físicos ou digitais dos cidadãos, não permitindo violação das informações.
 
-**Art. 1:** Esta lei dispõe sobre o tratamento de dados pessoais, inclusive nos meios digitais, por pessoa natural ou por pessoa jurídica de direito público ou privado, com o objetivo de proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural.
+**Art. 1:** Esta lei dispõe sobre o tratamento de dados pessoais, **inclusive nos meios digitais, por pessoa natural ou por pessoa jurídica de direito público ou privado.**
 
 **Art. 2:** Fundamentos
-1. o respeito à privacidade
-2. a autodeterminação da informação (as próprias pessoas passam os dados para os bancos de dados por livre e espontânea vontade)
-3. a liberdade de expressão, de informação, de comunicação e de opinião
-4. a inviolabilidade da intimidade, da honra e da imagem
-5. o desenvolvimento econômico e tecnológico e a inovação
-6. a livre iniciativa, a livre concorrência e a defesa do consumidor
-7. os direitos humanos, o livre desenvolvimento da personalidade, a dignidade e o exercício da cidadania pelas pessoas naturais.
+1. respeito à privacidade
+2. autodeterminação da informação (indivíduo controlar e e proteger seus dados)
+3. liberdade EICO (expressão, informação, comunicação e opinião)
+4. Inviolabilidade IHI (intimidade, honra e imagem)
+5. **desenvolvimento** ETI (econômico, tecnológico e inovação)
+6. **livre** iniciativa, concorrência e defesa do consumidor
+7. direitos humanos, o **livre desenvolvimento** PerDig ExeCid (personalidade, dignidade e exercício da cidadania)
 
-**Art. 3:** Qual operação de **tratamento realizada em território nacional**, seja feita por PF ou PJ, independente do lugar também que o coletor esteja localizado. 
+**Art. 3:** Operação de **tratamento realizada em território nacional**, independente do lugar também que o coletor esteja localizado. 
+
+> [!IMPORTANT]
 > § 1 o Consideram-se coletados no território nacional os dados pessoais cujo titular nele se encontre no momento da coleta.
 
 **Art. 4:** A lei não se aplica
-- para fins particulares
-- de atividade jornalística e artística
-- em atividades para uso na segurança pública, defesa nacional, segurança do Estado etc
-- A lei também não se aplica se uma empresa estrangeira coleta dados no país estrangeiro e **não compartilha esses dados com o Brasil**, tudo é processado apenas dentro dos EUA.
+1. para fins particulares
+2. para fins **exclusivos** de 
+	- de atividade jornalística e artística
+	- acadêmicos
+	- em atividades para uso na segurança pública, defesa nacional, segurança do Estado etc
+	- investigação e repressão de infrações penais
+- A lei também não se aplica se uma empresa estrangeira coleta dados no país estrangeiro e **não compartilha esses dados com o Brasil**, ex.: tudo é processado apenas dentro dos EUA.
 
 **Art. 5:** Considerações
 - Dado pessoal é o que identifica um indivíduo
@@ -40,16 +45,17 @@
 - **Operador:**  Pessoa natural ou jurídica, seja de direito público ou privado, realiza os tratamento de dados pessoais em nome do controlador.
 - **Encarregado:** Pessoa indicada pelo <u>controlador e operador</u> para atuar como canal de comunicação entre controlador, titulares dos dados e Autoridade Nacional de Proteção de Dados (ANPD).
 - **Agentes de Tratamento:** controlador e operador
-- Tratamento é <u style="font-weight: bold;">toda operação</u> realizada com dados pessoais, seja: coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, comunicação, transferência, difusão ou extração.
-- Anonimização é tirar a possibilidade de associação de um dado, <u>seja direta ou indireta.</u>
-- Consentimento precisa ser uma manifestação livre, informada e inequívoca na qual o titular o dados concorde com o tratamento de seus dados para <u>uma finalidade específica.</u>
-- Bloqueio é a suspensão de qualquer tipo de operação de tratamento, seja dado pessoal ou em banco de dados.
-- Eliminação é a exclusão de dado ou de conjunto de dados armazenados em banco de dados
-- Transferência internacional de dados, passagem dos dados para país estrangeiro ou organismo internacional que o país é membro.
-- Uso compartilhado de dados acontece por comunicação, difusão, transferência internacional, interconexão de dados pessoais ou tratamento compartilhado de bancos de dados pessoais 
-- Relatório de impacto à proteção de dados pessoais: documentação <u>do controlador</u> que contém a descrição dos processos de tratamento de dados pessoais que podem gerar riscos às liberdades civis e aos direitos fundamentais
-- órgão de pesquisa é a entidade da administração pública direta ou indireta ou pessoa jurídica de direito privado sem fins lucrativos, que tem como objetivo: pesquisa básica ou aplicada de caráter histórico, científico, tecnológico ou estatístico
-- autoridade nacional é o órgão da administração pública responsável por zelar, implementar e fiscalizar o
+![Encarregado](imgs/encarregado.jpg)
+- **Tratamento:** é **toda operação** realizada com dados pessoais, seja: coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, comunicação, transferência, difusão ou extração.
+- **Anonimização:** é tirar a possibilidade de associação de um dado, **seja direta ou indireta.**
+- Consentimento precisa ser uma manifestação livre, informada e inequívoca na qual o titular o dados concorde com o tratamento de seus dados para **uma finalidade específica.**
+- **Bloqueio:** é a suspensão de qualquer tipo de operação de tratamento, seja dado pessoal ou em banco de dados.
+- **Eliminação:** é a exclusão de dado ou de conjunto de dados armazenados em banco de dados
+- **Transferência internacional de dados:** é a passagem dos dados para país estrangeiro ou organismo internacional que o país é membro.
+- **Uso compartilhado de dados:** acontece por comunicação, difusão, transferência internacional, interconexão de dados pessoais ou tratamento compartilhado de bancos de dados pessoais 
+- **Relatório de impacto à proteção de dados pessoais:** é a documentação **do controlador** que contém a descrição dos processos de tratamento de dados pessoais que podem gerar riscos às liberdades civis e aos direitos fundamentais
+- **Órgão de pesquisa:** é a entidade da administração pública direta ou indireta ou pessoa jurídica de direito privado sem fins lucrativos, que tem como objetivo: pesquisa básica ou aplicada de caráter histórico, científico, tecnológico ou estatístico
+- **Autoridade nacional:** é o órgão da administração pública responsável por zelar, implementar e fiscalizar o cumprimento da lei em território nacional.
 
 **Art. 6:** Atividades de tratamentos através da boa-fé e conduta
 - **Finalidade:** Tratamento para apenas aquilo que foi acordado e que o titular aceitou
@@ -57,7 +63,7 @@
 - **Necessidade:** Limitação do tratamento ao mínimo necessário para realização de suas finalidades
 - **Livre acesso:** garantir ao titular a consulta facilitada e gratuita sobre a forma e a duração do tratamento, bem como sobre a integralidade de seus dados pessoais
 - **Qualidade dos dados:** garantia, aos titulares, de exatidão, clareza, relevância e atualização dos dados
-- **Transparência:** garantia, aos titulares, de informações claras, precisas e facilmente acessíveis sobre a realização do tratamento e os respectivos agentes de tratamento, <u>observados os segredos comerciais e industriais.</u> 
+- **Transparência:** garantia, aos titulares, de informações claras, precisas e facilmente acessíveis sobre a realização do tratamento e os respectivos agentes de tratamento, **observados os segredos comerciais e industriais.** 
 - **Segurança:** medidas para proteção dos dados pessoais de acessos não autorizados e de situações acidentais ou ilícitas de destruição, perda, alteração, comunicação ou difusão.
 - **Prevenção:** adoção de medidas para prevenir a ocorrência de danos em virtude do tratamento de dados pessoais
 - **Não discriminação:** impossibilidade de realização do tratamento para fins discriminatórios ilícitos ou abusivos
@@ -80,18 +86,17 @@
 - proteção do crédito, não podendo repassar essas informações para outro controlador sem prévia autorização do titular
 > Proteção do crédito” quer dizer **analisar, avaliar ou garantir a capacidade de pagamento de uma pessoa**, com o intuito de **evitar inadimplência** (calotes)
 
-
 **Art;. 8:** Formas do consentimento
 - por escrito ou por outro meio que demonstre a manifestação do titular
 >Ex.: O titular confirmando através de prompts, formulários online, clicando em checkboxes, botões de "aceito os termos" / "estou ciente" etc. também são formas válidas para demonstrar a autorização do titular.
 - Se for cláusula por escrito, deverá constar de cláusula separada das demais
-- Cabe ao <u>controlador</u> o ônus da prova de que o consentimento foi fornecido, deve ter isso registrado de alguma forma
+- Cabe ao **controlador** o ônus da prova de que o consentimento foi fornecido, deve ter isso registrado de alguma forma
 - Não pode induzir o titular a consentir
 - As finalidades devem ser objetivas, se forem genéricas deverão ser desconsideradas
 - O titular deve poder revogar consentimento a hora que ele quiser
 - Caso haja alterações posteriores o titular precisa ser informado, podendo o titular, nos casos em que o consentimento é exigido, revogá-lo caso discorde da alteração.
 
-**Art. 9:** O titular tem direito direito ao acesso facilitado às informações sobre o tratamento de seus dados, que deverão ser disponibilizadas de forma clara...
+**Art. 9:** O titular tem direito direito ao acesso facilitado às informações sobre o tratamento de seus dados, que deverão ser disponibilizadas de forma clara (...)
 - finalidade específica do tratamento
 - forma e duração do tratamento, observados os segredos comerciais e industriais
 - identificação do controlador
@@ -105,8 +110,6 @@
 
 **Art. 10:** o legítimo interesse do controlador somente poderá fundamentar tratamento de dados pessoais para finalidades legítimas.
 - A empresa pode usar os dados para melhorar, divulgar ou organizar suas próprias atividades.
-- A empresa pode tratar seus dados para garantir seus próprios direitos e também os direitos do titular.
-
-
-
-
+- A empresa pode tratar os dados para garantir seus próprios direitos e também os direitos do titular, mas somente os dados necessários para interesse do controlador.
+- Deve adotar medidas de transparência do tratamento dos dados
+- ANPD poderá solicitar ao controlador relatório de impacto à proteção de dados pessoais, observados os segredos comercial e industrial.
