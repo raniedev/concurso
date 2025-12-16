@@ -19,10 +19,9 @@ Em outras palavras, CMMI é um **modelo de maturidade** que prescreve boas prát
 
 Um processo é uma sequência de passos executados para se realizar uma determinada atividade. A figura seguinte ilustra as **três dimensões críticas** nas quais as organizações geralmente concentram-se: pessoas, procedimentos e métodos, e ferramentas e equipamentos.
 
-![[imgs/processo.png]]
+![Processo](../imgs/processo.png)
 
 ## Níveis Evolutivos
-
 
 | Níveis                               | Descrição                                                                                                                                                                                                              |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
