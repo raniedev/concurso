@@ -2,15 +2,15 @@
 
 O processo unificado, também conhecido como RUP (Rational Unified Process), é um _framework_ que visa apoiar o desenvolvimento de _software_. Seguem as suas principais características:
 
-| Interativo e Incremental | Refinamentos sucessivos, com entregas divididas                          |
+| Interativo e Incremental | Refinamentos sucessivos, com entregas divididas                         |
 | ------------------------ | ----------------------------------------------------------------------- |
-| Guiados por casos de uso | Eventos descritivos da interação do usuário com o sistem                 |
-| Centrado na arquitetura  | Concepção dos componentes do siste                                       |
-| Orientados à objetos     | Paradigma que facilita o reuso e a manutenção do sist                    |
-| Focado em riscos      Gerenciamento de possíveis eventos que possam vir a impactar o projeto. ctar  |
+| Guiados por casos de uso | Eventos descritivos da interação do usuário com o sistem                |
+| Centrado na arquitetura  | Concepção dos componentes do siste                                      |
+| Orientados à objetos     | Paradigma que facilita o reuso e a manutenção do sist                   |
+| Focado em riscos         | Gerenciamento de possíveis eventos que possam vir a impactar o projeto. |
 O processo unificado é organizado em fases, disciplinas e perspectivas. Uma visão clássica para representá-lo é por meio do gráfico de baleias:
 
-![RUP](../imgs/RUP.png)
+![RUP](../imgs/rup.png)
 
 ## Fases do RUP
 
