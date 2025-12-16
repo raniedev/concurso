@@ -10,7 +10,7 @@ O processo unificado, também conhecido como RUP (Rational Unified Process), é 
 | Focado em riscos      Gerenciamento de possíveis eventos que possam vir a impactar o projeto. ctar  |
 O processo unificado é organizado em fases, disciplinas e perspectivas. Uma visão clássica para representá-lo é por meio do gráfico de baleias:
 
-![RUP](../imgs/RUP.png)
+![RUP](../imgs/rup.png)
 
 ## Fases do RUP
 
