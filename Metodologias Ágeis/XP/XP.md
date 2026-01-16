@@ -55,6 +55,46 @@ O XP promove um ritmo de trabalho sustentável, evitando o esgotamento da equipe
 
 No XP, o cliente é uma parte integrante da equipe de desenvolvimento, fornecendo feedback contínuo e colaborando na definição de prioridades. Isso garante que o software atenda às necessidades reais do usuário e que as decisões sejam baseadas em dados concretos.
 
+## Papéis
+
+**Programador:** escrevem testes e mantém o programa o mais simples e conciso possível. A primeira característica que torna o XP possível é a habilidade de comunicação e coordenação com outros membros da equipe.
+
+**Cliente:** escreve as estórias e os testes funcionais, além de decidir quando cada requisito foi satisfeito. O cliente também define a prioridade de implementação de cada requisito.
+
+**Testador:** ajuda o cliente a escrever os testes funcionais. Ele também realiza os testes funcionais regularmente, comunicando os resultados dos testes e mantém o conjunto de testes.
+
+**Monitor:** fornece a realimentação para a equipe do projeto. Ele acompanha a conformidade das estimativas feitas pela equipe de desenvolvimento (por exemplo, estimativas de esforço) e fornece comentários de quanto acuradas elas estão, para poder melhorar futuras estimativas. Ele também acompanha o progresso de cada iteração e avalia se o objetivo é viável dentro das limitações de tempo e recursos, ou se alguma mudança é necessária no processo.
+
+**Treinador:** é a pessoa responsável pelo processo como um todo. Um profundo conhecimento do XP é importante para este papel, pois é ele que guiará os outros envolvidos no projeto a executar o processo de forma adequada.
+
+**Consultor:** é um membro externo com conhecimento técnico específico necessário para o projeto. O consultor auxilia a equipe a resolver problemas específicos.
+
+**Chefe:** responsável pelas tomadas de decisões. Para isso, ele comunica-se com a equipe de projeto para determinar a situação atual e para identificar qualquer dificuldade ou deficiência do processo.
+
+**Os 5 Valores Fundamentais do XP:**
+
+1. **Comunicação:** Comunicação constante e clara entre todos os membros da equipe e com o cliente para garantir alinhamento e entendimento.
+2. **Simplicidade:** Fazer o essencial para o problema atual, evitando complexidades desnecessárias e construindo apenas o que é necessário.
+3. **Feedback:** Entregar software funcional frequentemente para obter retorno rápido, permitindo ajustes e melhorias contínuas.
+4. **Coragem:** Ter a ousadia de mudar o rumo, refatorar o código, adaptar requisitos e dizer a verdade sobre o progresso e estimativas.
+5. **Respeito:** Valorizar cada membro da equipe e seu trabalho, reconhecendo que todos contribuem para o objetivo comum
+
+Princípios Básicos (Como os Valores se Aplicam)
+
+- **Feedback Rápido:** Entregar software em ciclos curtos para obter retorno constante.
+- **Presumir Simplicidade:** Implementar a solução mais simples possível para o problema atual.
+- **Mudanças Incrementais:** Fazer pequenas mudanças constantes, em vez de grandes saltos.
+- **Abraçar Mudanças:** Ver a mudança como uma oportunidade, não como um problema.
+- **Trabalho de Qualidade:** Manter um código limpo e bem testado, com alta qualidade desde o início. 
+
+Práticas Comuns (A Implementação)
+
+- **Test-Driven Development (TDD):** Escrever testes antes do código.
+- **Programação em Par:** Dois desenvolvedores trabalhando juntos em um computador.
+- **Integração Contínua:** Integrar o código frequentemente.
+- **Cliente no Local:** O cliente participa ativamente do projeto.
+- **Refatoração:** Melhorar o código existente sem mudar sua funcionalidade.
+
 ## Referências
 
 - [eXtreme Programming  - Estratégia Concursos](https://www.estrategiaconcursos.com.br/blog/extreme-programming-xp-cef-ti/)
