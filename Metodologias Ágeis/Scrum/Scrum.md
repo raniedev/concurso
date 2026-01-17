@@ -23,7 +23,7 @@ O time consiste de um *Product Owner*, Time de Desenvolvimento e *Scrum Master*.
 
 ### Product Owner
 
-- Expressar claramente os itens do Backlog o Produto
+- Expressar claramente os itens do Backlog do Produto
 - Ordenar os itens do Backlog do Produto para alcançar melhor as metas e missões
 - Otimizar o valor do trabalho que o Time de Desenvolvimento realiza
 - Garantir que o Backlog do Produto seja visível transparente, claro para todos, e mostrar o que o Time Scrum vai trabalhar a seguir
@@ -77,7 +77,7 @@ O Product Owner apresenta para a equipe quais são as necessidades dos usuários
 1. Mapeamento das necessidades dos usuários do produto pelo Product Owner, lembrando que pode ser um produto novo ou um que já esteja no mercado
 2. Definição das Backlogs do produto a serem realizadas para que as necessidades dos usuários sejam atendidas
 3. Apresentação das Backlogs para todo time da Scrum
-4. Reuniões para transformar as Backlogs em Sprint. Uma das maneiras de realizar essa etapa é através do <u>Planning Poker</u>.
+4. Reuniões para transformar as Backlogs em Sprint. Uma das maneiras de realizar essa etapa é através do <u>Planning Poker</u>, que consiste de uma ferramenta para se estimar tamanho de projetos, geralmente são usados a sequência de Fibonacci em seu crescimento: 1, 2, 3, 5, 7, 13, 21... 
 5. Caso seja necessário, nessa mesma reunião deve acontecer a divisão das Backlogs consideradas grandes em diferentes tipos
 6. Definição, hierarquização e descrição do planejamento das Sprints conforme a importância do Product Backlog, seu grau de dificuldade e o tamanho da equipe envolvida
 7. Se algum Product Backlog não ficou claro para a equipe ou foi considerado difícil, o Product Owner deverá reformular sua descrição e buscar maior clareza sobre as necessidades dos usuários
@@ -159,14 +159,14 @@ Exemplo de critérios de “Done”:
 - Documentação atualizada.
 - Publicado em ambiente de produção.
 
-### *Daily Meeting / Daily Scrum*  (Reunião Diária)
+### *Daily Meeting / Daily Scrum / Daily Standup  (Reunião Diária)
 
 - Evento de <u>15 minutos</u> para o time de desenvolvimento
 - Planeja o trabalho para as próximas 24 horas
 - Responde às questões:
 	- O que eu fiz ontem que ajudou o time de desenvolvimento a atingir a meta da Sprint?
 	- O que eu farei hoje para ajudar o time de desenvolvimento atingir a meta da Sprint?
-	- Eu vejo algum obstáculo que impeça a mim ou o time de desenvolvimento na conclusão da meta da Sprint? Se sim, isso seria uma tarefa para o *Scrum Master* ajudar a solucionar.
+	- Eu vejo algum obstáculo que me impeça ou ao time de desenvolvimento na conclusão da meta da Sprint? Se sim, isso seria uma tarefa para o *Scrum Master* ajudar a solucionar.
 
 ### *Sprint Review* (Revisão da Sprint)
 
